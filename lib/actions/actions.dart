@@ -1,0 +1,3 @@
+class LoadGamesAction {}
+
+class GamesNotLoadedAction {}
