@@ -1,1 +1,6 @@
-import 'package:liverpool_rating/reducers/loading_reducer.dart';
+
+AppState appReducer(AppState state, action) {
+  return AppState(
+    isLoading: loadingReducer(state.isLoading, action),
+  );
+}
