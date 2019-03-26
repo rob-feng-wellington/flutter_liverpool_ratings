@@ -1,0 +1,1 @@
+enum AppTab { games, search, profile }

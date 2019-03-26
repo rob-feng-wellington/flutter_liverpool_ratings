@@ -1,0 +1,1 @@
+enum HomeAwayFilter { all, home, away }
