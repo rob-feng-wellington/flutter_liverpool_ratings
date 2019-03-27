@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_redux/flutter_redux.dart';
 import 'package:liverpool_rating/models/models.dart';
 import 'package:redux/redux.dart';
+import 'package:liverpool_rating/reducers/app_state_reducer.dart';
 
 
 void main() => runApp(MyApp());
